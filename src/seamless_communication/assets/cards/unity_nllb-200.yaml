@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 model_type: unity
-tokenizer: "https://huggingface.co/facebook/seamless-m4t-medium/resolve/main/tokenizer.model"
+tokenizer: "file://my_vol/tokenizer.model"
 default_lang: eng
 langs:
   - ace
