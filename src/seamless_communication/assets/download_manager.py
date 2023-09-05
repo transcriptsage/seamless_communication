@@ -18,7 +18,7 @@ class SCAssetDownloadManager(DefaultAssetDownloadManager):
         hsh = cls._get_uri_hash(uri)
 
         filename = cls._get_filename(uri)
-
+        print("seamless_communication", "assets", sub_dir, hsh, filename)
         return hub_dir.joinpath(
             "seamless_communication", "assets", sub_dir, hsh, filename
         )
